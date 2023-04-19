@@ -1,0 +1,17 @@
+.logger {
+  background-color: #333333;
+  border-radius: 12px;
+  width:500px;
+  height:50px;
+  margin-top:5px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logger p {
+  text-align:center;
+  padding:.1rem;
+  color:#ffffff;
+  font-size: 13px;
+}

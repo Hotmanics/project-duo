@@ -1,0 +1,11 @@
+{
+    "name": "Blue",
+    "description": "Smooth and cool, like an ice cube.",
+    "attributes": [
+        {
+            "trait_type": "Color", "value": "Blue"
+        }
+    ],
+    "image": "ipfs://bafybeift2czkjgp42uysyt4jds42e6664ufnhiqwo74777itipfafivehq/QmdoYkLbrkcAqEqZiZk93ihwiUxuF1pMor9htaYeSiJxjU.png"
+}
+

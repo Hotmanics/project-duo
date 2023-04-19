@@ -1,0 +1,11 @@
+{
+    "name": "Green",
+    "description": "Sour like an apple, sweet like a pear.",
+    "attributes": [
+        {
+            "trait_type": "Color", "value": "Green"
+        }
+    ],
+    "image": "ipfs://bafybeift2czkjgp42uysyt4jds42e6664ufnhiqwo74777itipfafivehq/QmU1dG4bJRKWoipKa1XwrdntQV7Qhrd3htXXS8c2XqUJW3.png"
+}
+

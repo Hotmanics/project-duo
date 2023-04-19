@@ -1,0 +1,28 @@
+{
+    "name": "Multi",
+    "description": "SO. MANY. COLORS.",
+    "attributes": [
+        {
+            "trait_type": "Color", "value": "Red"
+        },
+        {
+            "trait_type": "Color", "value": "Blue"
+        },
+        {
+            "trait_type": "Color", "value": "Green"
+        },
+        {
+            "trait_type": "Color", "value": "White"
+        },
+        {
+            "trait_type": "Color", "value": "Yellow"
+        },
+        {
+            "trait_type": "Color", "value": "Purple"
+        },
+        {
+            "trait_type": "Color", "value": "Black"
+        }
+    ],
+    "image": "ipfs://bafybeift2czkjgp42uysyt4jds42e6664ufnhiqwo74777itipfafivehq/QmTkVPXfeaAhUEFsDcDi9D1vbAA8rrQkru4owk9ifkGi12.gif"
+}

@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "hardhat": "^2.11.2"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@opengsn/contracts": "^3.0.0-beta.6",
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.1"
+  }
+}
