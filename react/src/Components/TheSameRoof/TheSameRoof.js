@@ -13,7 +13,6 @@ const TheSameRoof = (props)=> {
         ProjectDuoABI,
         props.connectedWalletInfo.provider
     );
-    console.log(contract);
 
     const [onMintTrigger, setOnMintTrigger] = useState(0);
 

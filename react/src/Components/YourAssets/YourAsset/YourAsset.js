@@ -3,8 +3,6 @@ import "./YourAsset.css";
 
 const YourAsset = (props)=> {
 
-    console.log(props.attributes);
-
     return <div className='yourAsset' id="test">
         <p id="name">{props.name} (id: {props.id})</p>
         <p id="description">{props.description}</p>

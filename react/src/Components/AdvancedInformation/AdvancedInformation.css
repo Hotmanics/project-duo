@@ -16,3 +16,8 @@
 .advancedInformation #uh2 {
     margin:5px;
 }
+
+.advancedInformation #container {
+    border-radius:12px;
+    background-color: #0E8388;
+}

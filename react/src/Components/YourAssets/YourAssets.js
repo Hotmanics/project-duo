@@ -7,16 +7,12 @@ import "./YourAssets.css";
 const YourAssets = (props)=> {
 
     useEffect(()=> {
-        console.log("I RAN");
         DisplayAssets();
     }, [])
 
        
     useEffect(()=> {
-        console.log("I came");
         if (props.onMintTrigger) {
-            console.log("I conquered");
-
           DisplayAssets();  
         }
     }, [props.onMintTrigger]);

@@ -20,7 +20,9 @@ const AdvancedInformation = (props)=> {
     }
 
     return <div className='advancedInformation'> 
+    <div id="container">
     {output}
+    </div>
     </div>
 }
 

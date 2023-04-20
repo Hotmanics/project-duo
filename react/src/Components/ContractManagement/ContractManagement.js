@@ -27,7 +27,6 @@ const ContractManagement = (props)=> {
         ProjectDuoABI,
         props.connectedWalletInfo.provider
     );
-    console.log(contract);
 
     const handleBtnClick = async ()=> {
 
