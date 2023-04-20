@@ -1,0 +1,30 @@
+.lost {
+    background-color: #69e9cb;
+    width:475px;
+    text-align: center;
+    height:50px;
+    justify-content: center;
+    align-items: center; 
+    display:flex;   
+    border-radius: 12px;
+    }
+  
+.lost #holla {
+    font-size: 14px;
+    }
+
+
+    .lost #uh {
+        display: flex; 
+        margin:auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .lost #uh2 {
+        margin-left:5px;
+    }
+
+    .lost #tt {
+        margin-left:5px;
+    }

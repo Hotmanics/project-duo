@@ -6,6 +6,7 @@ import LoggedInSection from './Components/ContractManagement/ContractManagement'
 import YourAssets from './Components/YourAssets/YourAssets';
 import TheSameRoof from './Components/TheSameRoof/TheSameRoof';
 import AdvancedInformation from './Components/AdvancedInformation/AdvancedInformation';
+import Lost from './Components/Lost/Lost';
 
 function App() {
 
@@ -19,17 +20,26 @@ function App() {
     setConnectedWalletInfo(info);
   }
 
+  let extra;
+  if (connectedWalletInfo === undefined) {
+    extra = <div id="test">
+    <Lost></Lost>
+  </div>;
+  }
+
   let output = <div>
       <div id="test">
         <ConnectWallet onWalletConnected={handleLogin}></ConnectWallet>
       </div>
+      {extra}
+      
   </div>
 
   let loginOutput = connectedWalletInfo === undefined ?
   <div></div> : 
   <div>
     <AdvancedInformation>
-      
+
     </AdvancedInformation>
     <TheSameRoof
       connectedWalletInfo={connectedWalletInfo}
