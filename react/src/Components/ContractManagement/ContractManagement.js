@@ -70,7 +70,7 @@ const ContractManagement = (props)=> {
                     </tr>
                     <tr>
                     <th id="header">
-                        <p>{collectionName}</p>
+                        {collectionName}
                     </th>
                     <th id="header">
                         {collectionSymbol}
