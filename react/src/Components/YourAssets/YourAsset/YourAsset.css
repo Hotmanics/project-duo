@@ -1,0 +1,34 @@
+.yourAsset {
+    display:inline-block;
+    width:200px;
+    vertical-align: top;
+    background-color: #69e9cb;
+    border-radius: 12px;
+    text-align: center;
+    margin:5px;
+}
+
+.yourAsset #name {
+    font-weight:bold;
+}
+.yourAsset #description {
+    height: 50px;
+}
+
+.yourAsset table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yourAsset table,
+.yourAsset th,
+.yourAsset td {
+    border: 2.5px solid black;
+    border-color:#010202;
+    background-color: #0E8388;
+    border-collapse: collapse;
+}
+
+.yourAsset #data {
+    font-size: small;
+}

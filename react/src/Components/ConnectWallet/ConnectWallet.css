@@ -1,5 +1,5 @@
 .connectWallet {
-  background-color: #333333;
+  background-color: #69e9cb;
   border-radius: 12px;
   width:100px;
   height: 50px;
@@ -11,23 +11,22 @@
 
 .connectWallet p {
   font-size: 14px;
-  color:#ffffff;
   text-align:center;
   padding:.1rem;
   }
 
 .connectWallet button {
   width: 80px;
-  background-color: #a12aab;
+  background-color: #CBE4DE;
   border: 2px solid #565656;
   border-radius: 12px;
-  color: white;
   font-weight: bolder;
   cursor: pointer; 
+  height: 80%;
 }
 
 .connectWallet button:hover,
 .connectWallet button:active {
-  background-color: #cc0bdd;
+  background-color: #00FFCA;
   border-color: #ffffff;;
 }

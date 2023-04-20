@@ -8,13 +8,13 @@ import "@opengsn/contracts/src/ERC2771Recipient.sol";
 
 contract ProjectDuo is Ownable, ERC721URIStorage, AccessControl, ERC2771Recipient {
     
-    uint256 mintCount;
+    uint256 public mintCount;
 
     string[] rarityURLs = [
-        "ipfs://bafybeielcuklhzaegddycgh6ivzl5f75fajdfopc7pmz4bdtc7sxbsxyhq/blue.json",
-        "ipfs://bafybeielcuklhzaegddycgh6ivzl5f75fajdfopc7pmz4bdtc7sxbsxyhq/red.json",
-        "ipfs://bafybeielcuklhzaegddycgh6ivzl5f75fajdfopc7pmz4bdtc7sxbsxyhq/green.json",
-        "ipfs://bafybeielcuklhzaegddycgh6ivzl5f75fajdfopc7pmz4bdtc7sxbsxyhq/multi.json"
+        "ipfs://bafybeidtdz4pyjj4dtnt5tbaetzvws7de2is4jt5ubqnmvaogvh4asq5py/blue.json",
+        "ipfs://bafybeidtdz4pyjj4dtnt5tbaetzvws7de2is4jt5ubqnmvaogvh4asq5py/red.json",
+        "ipfs://bafybeidtdz4pyjj4dtnt5tbaetzvws7de2is4jt5ubqnmvaogvh4asq5py/green.json",
+        "ipfs://bafybeidtdz4pyjj4dtnt5tbaetzvws7de2is4jt5ubqnmvaogvh4asq5py/multi.json"
     ];
 
     constructor(address forwarder) ERC721("Project Duo", "PD") { 

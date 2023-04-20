@@ -8,9 +8,30 @@ const { ethers } = require('hardhat')
 
 async function main() {
 
-  const contractName = "ProjectDuo";
+  // const contractName = "ProjectDuo";
+  // const Contract = await ethers.getContractFactory(contractName);
+  // const contract = await Contract.deploy("0xB2b5841DBeF766d4b521221732F9B618fCf34A87");
+  
+  // console.log(`${contractName} is being deployed...`);
+  // console.log(`Transaction hash: ${contract.deployTransaction.hash}`);
+
+  // let tx = await contract.deployed();
+  
+  // console.log(`Gas Price: ${ethers.utils.formatUnits(contract.deployTransaction.gasPrice.toNumber(), 'gwei')} gwei`)
+  // console.log(`Gas Limit: ${contract.deployTransaction.gasLimit.toNumber()}`)
+  
+  // console.log(`Deployed ${contractName} to: ${contract.address}`);
+
+  // await deploy("ProjectDuo", "0xB2b5841DBeF766d4b521221732F9B618fCf34A87");
+
+  await deploy("SingleRecipientPaymaster", "0xbF6A844c4873372E138Da8FbF8BB51d4229b3873");
+
+}
+
+async function deploy(name, ...params) {
+  const contractName = name;
   const Contract = await ethers.getContractFactory(contractName);
-  const contract = await Contract.deploy("0xB2b5841DBeF766d4b521221732F9B618fCf34A87");
+  const contract = await Contract.deploy(...params);
   
   console.log(`${contractName} is being deployed...`);
   console.log(`Transaction hash: ${contract.deployTransaction.hash}`);

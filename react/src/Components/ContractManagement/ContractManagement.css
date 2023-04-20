@@ -1,0 +1,36 @@
+.contractManagement {
+    text-align: center;
+}
+
+.contractManagement button {
+    width: 200px;
+    padding:8px;
+    background-color: #CBE4DE;
+    border: 2px solid #565656;
+    border-radius: 12px;
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 20px;
+}
+  
+  .contractManagement button:hover,
+  .contractManagement button:active {
+    background-color: #00FFCA;
+    border-color: #ffffff;;
+  }
+
+.contractManagement table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contractManagement table,
+.contractManagement th,
+.contractManagement td {
+    border: 2.5px solid black;
+    border-color:#010202;
+    border-radius: 12px;
+    background-color: #0E8388;
+    border-collapse: collapse;
+    font-size: larger;
+}

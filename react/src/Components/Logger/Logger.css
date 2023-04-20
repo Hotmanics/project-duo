@@ -1,17 +1,15 @@
 .logger {
-  background-color: #333333;
-  border-radius: 12px;
+  background-color: #69e9cb;
+  text-align: center;
+  height:75px;
   width:500px;
-  height:50px;
-  margin-top:5px;  
+  border-radius: 12px;
+  margin:auto;
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .logger p {
-  text-align:center;
   padding:.1rem;
-  color:#ffffff;
-  font-size: 13px;
-}
+} 
