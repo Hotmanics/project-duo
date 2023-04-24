@@ -33,7 +33,7 @@ const ContractManagement = (props)=> {
         try {
             props.onBoastMessage("Generating your character...A metamask popup will appear shortly...Please read the details and press the \"Sign\" button...After pressing the button, please wait another moment for the section below to populate! (This may take a couple of minutes)");
             const gsnConfig = {
-                paymasterAddress: "0x935ad27F0883B7ad34a60E38a6dc08075179a5b0",
+                paymasterAddress: "0x1CB726C8F3D3613Be7ffBf3E784529C692196d1f",
               }
     
               const gsnProvider = RelayProvider.newProvider({ provider: window.ethereum, config: gsnConfig })
@@ -77,6 +77,20 @@ const ContractManagement = (props)=> {
                     </tr>
                     </tbody>
                 </table>
+                <br/>
+
+                <div id="in">
+                    <a href="https://jacobhomanics.itch.io/game1" target="#">
+                    Play Game 1
+                </a>
+                </div>
+
+                <div id="in">
+                    <a href="https://jacobhomanics.itch.io/game1" target='#'>
+                    Play Game 2
+                </a>
+                </div>
+
                 <br/>
                 <button onClick={handleBtnClick}>Generate a character!</button>
     </div>

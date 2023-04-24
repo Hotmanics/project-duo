@@ -7,6 +7,7 @@ import YourAssets from './Components/YourAssets/YourAssets';
 import TheSameRoof from './Components/TheSameRoof/TheSameRoof';
 import AdvancedInformation from './Components/AdvancedInformation/AdvancedInformation';
 import Lost from './Components/Lost/Lost';
+import Lost2 from './Components/Lost2/Lost2';
 
 function App() {
 
@@ -32,6 +33,9 @@ function App() {
         <ConnectWallet onWalletConnected={handleLogin}></ConnectWallet>
       </div>
       {extra}
+      <div id="test">
+        <Lost2></Lost2>
+      </div>
       
   </div>
 
