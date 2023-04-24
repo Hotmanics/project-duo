@@ -7,6 +7,7 @@ using UnityEngine.Events;
 using System;
 using UnityEngine.UI;
 using JacobHomanics.Core.Timer;
+using TMPro;
 
 public class Test : MonoBehaviour
 {
@@ -43,13 +44,25 @@ public class Test : MonoBehaviour
     public UnityEvent NFTCountIsZero;
     public UnityEvent NFTCountIsGreaterThanZero;
     public UnityEvent Selected;
+    public UnityEvent SelectedGame1;
+    public UnityEvent SelectedGame2;
 
+
+    public bool isGame1;
 
     void Start()
     {
 #if !UNITY_EDITOR
         sdk = new ThirdwebSDK("polygon");
 #endif
+
+        if (isGame1)
+        {
+            titleText.text = "Shootout";
+        } else
+        {
+            titleText.text = "Jumpy";
+        }
     }
 
     public async void CheckBalance(string address)
@@ -98,6 +111,8 @@ public class Test : MonoBehaviour
         }
     }
 
+    public TMP_Text titleText;
+
     private Prefab_NFT CreateNewInstance()
     {
         var newInstance = Instantiate(nftPrefab, nftParent);
@@ -117,13 +132,35 @@ public class Test : MonoBehaviour
                 StartCoroutine(sr.GetComponent<SpriteRendererUniGif>().SetGifFromUrlCoroutine(newPrefabNFTInstance.nft.metadata.image));
             }
 
-            SetByName(newPrefabNFTInstance.nftName.text);
             Selected?.Invoke();
-            Debug.Log("Green");
+
+            if (isGame1)
+            {
+                SelectGame1(newPrefabNFTInstance.nftName.text);
+            }
+            else
+            {
+                SelectGame2();
+            }
+
         });
 
         return newPrefabNFTInstance;
     }
+
+    public void SelectGame1(string name)
+    {
+        SetByName(name);
+        SelectedGame1?.Invoke();
+    }
+
+    public void SelectGame2()
+    {
+        SelectedGame2?.Invoke();
+    }
+
+
+    public GameObject[] game1Assets;
 
     public void SetByName(string name)
     {
