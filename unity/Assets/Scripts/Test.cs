@@ -48,7 +48,7 @@ public class Test : MonoBehaviour
     void Start()
     {
 #if !UNITY_EDITOR
-        sdk = new ThirdwebSDK("mumbai");
+        sdk = new ThirdwebSDK("polygon");
 #endif
     }
 
@@ -69,6 +69,11 @@ public class Test : MonoBehaviour
                 ownedIndices.Add(i);
                 NFTCountIsGreaterThanZero?.Invoke();
             }
+        }
+
+        if (ownedIndices.Count == 0)
+        {
+            NFTCountIsZero?.Invoke();
         }
 
         for (int i = 0; i < ownedIndices.Count; i++)
