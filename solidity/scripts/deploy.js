@@ -23,8 +23,7 @@ async function main() {
   // console.log(`Deployed ${contractName} to: ${contract.address}`);
 
   // await deploy("ProjectDuo", "0xB2b5841DBeF766d4b521221732F9B618fCf34A87");
-
-  await deploy("SingleRecipientPaymaster", "0xbF6A844c4873372E138Da8FbF8BB51d4229b3873");
+  await deploy("SingleRecipientPaymaster", "0xA9FA66ae55044e40840fa2381b78Df0D17A8fe46");
 
 }
 

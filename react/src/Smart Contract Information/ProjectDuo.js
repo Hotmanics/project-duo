@@ -1,4 +1,4 @@
-const ProjectDuoAddress = "0xbF6A844c4873372E138Da8FbF8BB51d4229b3873";
+const ProjectDuoAddress = "0xA9FA66ae55044e40840fa2381b78Df0D17A8fe46";
 const ProjectDuoABI = [
   {
     "inputs": [
