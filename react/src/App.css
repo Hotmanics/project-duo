@@ -4,6 +4,6 @@
     min-height: 100vh;
 }
 
-.app #test {
-    display: inline-block;
+.app #margined {
+    margin-bottom:5px;
 }

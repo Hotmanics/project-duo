@@ -79,15 +79,23 @@ const ContractManagement = (props)=> {
                 </table>
                 <br/>
 
+                <div>
+
+                <a href="https://docs.google.com/presentation/d/10B4C4qOVttJvZJHvNMV5gY3DjoZ28meIyWayGF4DrUw/edit?usp=sharing" target='#'>
+                    Slides Presentation
+                </a>
+                </div>
+
+
                 <div id="in">
-                    <a href="https://jacobhomanics.itch.io/game1" target="#">
-                    Play Game 1
+                    <a href="https://jacobhomanics.itch.io/shootout" target='#'>
+                    Play Shootout
                 </a>
                 </div>
 
                 <div id="in">
-                    <a href="https://jacobhomanics.itch.io/game1" target='#'>
-                    Play Game 2
+                    <a href="https://jacobhomanics.itch.io/jumpy" target="#">
+                    Play Jump
                 </a>
                 </div>
 

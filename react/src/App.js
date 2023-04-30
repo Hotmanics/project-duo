@@ -23,28 +23,25 @@ function App() {
 
   let extra;
   if (connectedWalletInfo === undefined) {
-    extra = <div id="test">
-    <Lost></Lost>
-  </div>;
+    extra = <Lost></Lost>;
   }
 
   let output = <div>
-      <div id="test">
-        <ConnectWallet onWalletConnected={handleLogin}></ConnectWallet>
-      </div>
+    <div id="margined">
+      <ConnectWallet onWalletConnected={handleLogin}></ConnectWallet>
+    </div>
+    <div id="margined">
       {extra}
-      <div id="test">
-        <Lost2></Lost2>
-      </div>
-      
+    </div>
+    <div id="margined">
+      <Lost2></Lost2>
+    </div>
   </div>
 
   let loginOutput = connectedWalletInfo === undefined ?
   <div></div> : 
   <div>
-    <AdvancedInformation>
-
-    </AdvancedInformation>
+    <AdvancedInformation></AdvancedInformation>
     <TheSameRoof
       connectedWalletInfo={connectedWalletInfo}
     >

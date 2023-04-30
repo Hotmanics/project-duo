@@ -1,30 +1,23 @@
 .connectWallet {
   background-color: #69e9cb;
-  width:100px;
   text-align: center;
-  height:50px;
-  justify-content: center;
-  align-items: center; 
-  display:flex;
+  margin:auto;
+  width: 100%;
+  min-width: 50px;
+  max-width: 250px; 
   border-radius: 12px;
   }
 
-  .connectWallet #holla {
-    font-size: 14px;
-    }
-
-.connectWallet button {
-  width: 80px;
+.connectWallet button{
   background-color: #CBE4DE;
-  border: 2px solid #565656;
-  border-radius: 12px;
-  font-weight: bolder;
-  cursor: pointer; 
-  height: 80%;
-}
-
-.connectWallet button:hover,
-.connectWallet button:active {
-  background-color: #00FFCA;
-  border-color: #ffffff;;
-}
+  width: 100%;
+  min-width: 50px;
+  max-width: 75px; 
+  font-size:24px;
+  border-radius:12px;
+  }
+  .connectWallet button:hover,
+  .connectWallet button:active{
+    background-color: #00FFCA;
+    border-color: #000000;;
+  }
