@@ -28,7 +28,7 @@ const About = (props)=> {
             <div>
                 <h3>Asset Collection</h3>
                 <p>
-                    The Asset Collection is a very basic implementation of the ERC721 standard, deployed on Polygon Mainnet. However, it also implements the ERC2771 Standard. Which allows the user to generate an asset without paying for gas fees by offloading them to the creator of the collection.
+                    The Asset Collection is a very basic implementation of the ERC721 smart contract on the Polygon Mainnet. However, it also implements the ERC2771 Standard. Which allows the user to generate an asset without paying for gas fees by offloading them to the creator of the collection.
                 </p>
             </div>
             <div>
