@@ -7,7 +7,7 @@ import YourAssets from './Components/YourAssets/YourAssets';
 import TheSameRoof from './Components/TheSameRoof/TheSameRoof';
 import AdvancedInformation from './Components/AdvancedInformation/AdvancedInformation';
 import Lost from './Components/Lost/Lost';
-import Lost2 from './Components/Lost2/Lost2';
+import AddNetwork from './Components/AddNetwork/AddNetwork';
 
 function App() {
 
@@ -34,7 +34,7 @@ function App() {
       {extra}
     </div>
     <div id="margined">
-      <Lost2></Lost2>
+      <AddNetwork></AddNetwork>
     </div>
   </div>
 

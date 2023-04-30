@@ -1,7 +1,9 @@
 .yourAssets {
+    background-color: #69e9cb;
     text-align: center;
-    border-radius:12px;
-    background-color: #0E8388;
-    width:700px;
-    margin: auto;
+    margin:auto;
+    width: 100%;
+    min-width: 50px;
+    max-width: 450px; 
+    border-radius: 12px;
 }

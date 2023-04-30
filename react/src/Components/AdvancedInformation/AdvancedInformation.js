@@ -9,12 +9,20 @@ const AdvancedInformation = (props)=> {
     let output;
     if (isShowing) {
         output = <div>
-            <div id="uh">
-                <p id="uh2">Contract Address: {ProjectDuoAddress} </p>
-                <a href="https://mumbai.polygonscan.com/address/0xbF6A844c4873372E138Da8FbF8BB51d4229b3873" target={"#"}><p>Explorer Link</p></a>
-            </div>
-            <button onClick={()=>{setIsShowing(false)}}>Hide Advanced Information</button>
+                <p id="ele">Contract Address:</p>
+                <p id="addr">{ProjectDuoAddress}</p>
+                <a id="ele" href="https://polygonscan.com/address/0xA9FA66ae55044e40840fa2381b78Df0D17A8fe46" target={"#"}><p>PolygonScan Link</p></a>
+                <button onClick={()=>{setIsShowing(false)}}>Hide Advanced Information</button>
+        
         </div>
+        
+        
+        
+        
+        // <div>
+        //     <div id="uh">
+        //     </div>
+        // </div>
     } else {
         output = <button onClick={()=>{setIsShowing(true)}}>Show Advanced Information</button>
     }

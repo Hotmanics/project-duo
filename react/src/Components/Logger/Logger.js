@@ -3,14 +3,22 @@ import "./Logger.css";
 
 const Logger = (props)=> {
 
-    let msg = props.boastMessage === '' ? "There is currently no message to display!" : props.boastMessage;
-    return <div className='logger'> 
+
+    let msg = props.boastMessage;
+
+    let output;
+
+    if (msg.length > 0) {
+        output = <div className='logger'> 
+        <p>
+           { msg }
+        </p>
+            </div>;
+    } else {
+        <div></div>
+    }
     
-    
-    <p>
-       {msg}
-    </p>
-        </div>
+    return output;
 }
 
 export default Logger;

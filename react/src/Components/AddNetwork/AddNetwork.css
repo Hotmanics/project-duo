@@ -1,4 +1,4 @@
-.lost2 {
+.addNetwork {
     background-color: #69e9cb;
     text-align: center;
     margin:auto;
@@ -8,15 +8,14 @@
     border-radius: 12px;
 }
 
-.lost2 button{
+.addNetwork button{
     background-color: #CBE4DE;
-    width: 100%;
-    min-width: 50px;
+    min-width: 40px;
     max-width: 200px; 
     border-radius:12px;
     }
-    .lost2 button:hover,
-    .lost2 button:active{
+    .addNetwork button:hover,
+    .addNetwork button:active{
       background-color: #00FFCA;
       border-color: #000000;;
     }

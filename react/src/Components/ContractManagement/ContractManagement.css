@@ -2,21 +2,19 @@
     text-align: center;
 }
 
-.contractManagement button {
-    width: 200px;
-    padding:8px;
-    background-color: #CBE4DE;
-    border: 2px solid #565656;
-    border-radius: 12px;
-    font-weight: bolder;
-    cursor: pointer;
-    font-size: 20px;
-}
-  
+.contractManagement button{
+  background-color: #CBE4DE;
+  width: 100%;
+  min-width: 50px;
+  max-width: 300px; 
+  font-size:24px;
+  border-radius:12px;
+  margin:2.5px;
+  }
   .contractManagement button:hover,
-  .contractManagement button:active {
+  .contractManagement button:active{
     background-color: #00FFCA;
-    border-color: #ffffff;;
+    border-color: #000000;;
   }
 
 .contractManagement table {
@@ -35,24 +33,13 @@
     font-size: larger;
 }
 
-.contractManagement #header {
-  padding: 10px;
-}
-
-.contractManagement #in {
-  display: inline-block;
-  padding-left:25px;
-  padding-right:25px;
-  padding-bottom:25px;
-}
 .contractManagement a:link {
-  color: green;
-  font-size: 32px;
+  color: rgb(0, 62, 128);
 }
 
 /* visited link */
 .contractManagement a:visited {
-  color: green;
+  color: rgb(0, 62, 128);
 }
 
 /* mouse over link */

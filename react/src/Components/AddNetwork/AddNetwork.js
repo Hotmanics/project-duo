@@ -3,9 +3,9 @@ import Web3Modal from "web3modal";
 import WalletConnectProvider from "@walletconnect/web3-provider";
 import CoinbaseWalletSDK from "@coinbase/wallet-sdk";
 import { ethers } from "ethers"
-import "./Lost2.css";
+import "./AddNetwork.css";
 
-const Lost2 = (props)=> {
+const AddNetwork = (props)=> {
 
     const handleClick = ()=> {
         window.ethereum.request({
@@ -24,12 +24,12 @@ const Lost2 = (props)=> {
           });
     }
 
-    return <div className="lost2">
-            <div id="uh">
-                <div id="holla uh2">Please ensure that your metamask is connected to Polygon!</div>
-                <button onClick={handleClick}>Add Polygon To Metamask</button>
+    return <div className="addNetwork">
+            <div>
+                <div>Please ensure that your MetaMask is connected to Polygon!</div>
+                <button onClick={handleClick}>Add Polygon To MetaMask</button>
             </div>
         </div>
 }
 
-export default Lost2;
+export default AddNetwork;

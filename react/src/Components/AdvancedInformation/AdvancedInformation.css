@@ -1,23 +1,31 @@
 .advancedInformation {
-    background-color: #2E4F4F;
-    border-radius: 12px;
-    margin-top:10px;
-    padding:10px;
+    background-color: #69e9cb;
     text-align: center;
-}
-
-.advancedInformation #uh {
-    display: flex; 
     margin:auto;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
+    min-width: 50px;
+    max-width: 400px; 
+    border-radius: 12px;
 }
 
-.advancedInformation #uh2 {
-    margin:5px;
+.advancedInformation #ele {
+    margin-bottom: -15px;
 }
 
-.advancedInformation #container {
+.advancedInformation #addr {
+    overflow-wrap: break-word;
+    margin-bottom: -15px;
+
+}
+
+.advancedInformation button{
+    background-color: #CBE4DE;
+    min-width: 40px;
+    max-width: 200px; 
     border-radius:12px;
-    background-color: #0E8388;
-}
+    }
+    .advancedInformation button:hover,
+    .advancedInformation button:active{
+      background-color: #00FFCA;
+      border-color: #000000;;
+    }

@@ -55,49 +55,37 @@ const ContractManagement = (props)=> {
     }
 
     return <div className='contractManagement'>
-                <br/>
+                <h1>{ collectionName} </h1>
+
                 <table>
                     <tbody>
-
-                    <tr>
-                    <th>
-                        Collection Name
-                    </th>
-                    <th>
-                        Collection Symbol
-                    </th>
-                    </tr>
-                    <tr>
-                    <th id="header">
-                        {collectionName}
-                    </th>
-                    <th id="header">
-                        {collectionSymbol}
-                    </th>
-                    </tr>
+                        <tr>
+                            <th>
+                                Game
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                Shootout
+                            </th>
+                            <th>
+                                <a href="https://jacobhomanics.itch.io/shootout" target='#'>
+                                Play
+                                </a>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                Jumpy
+                            </th>
+                            <th>
+                                <a href="https://jacobhomanics.itch.io/jumpy" target="#">
+                                Play
+                                </a>
+                            </th>
+                        </tr>
                     </tbody>
                 </table>
-                <br/>
-
-                <div>
-
-                <a href="https://docs.google.com/presentation/d/10B4C4qOVttJvZJHvNMV5gY3DjoZ28meIyWayGF4DrUw/edit?usp=sharing" target='#'>
-                    Slides Presentation
-                </a>
-                </div>
-
-
-                <div id="in">
-                    <a href="https://jacobhomanics.itch.io/shootout" target='#'>
-                    Play Shootout
-                </a>
-                </div>
-
-                <div id="in">
-                    <a href="https://jacobhomanics.itch.io/jumpy" target="#">
-                    Play Jump
-                </a>
-                </div>
 
                 <br/>
                 <button onClick={handleBtnClick}>Generate a character!</button>
