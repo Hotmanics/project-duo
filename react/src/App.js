@@ -8,6 +8,7 @@ import TheSameRoof from './Components/TheSameRoof/TheSameRoof';
 import AdvancedInformation from './Components/AdvancedInformation/AdvancedInformation';
 import Lost from './Components/Lost/Lost';
 import AddNetwork from './Components/AddNetwork/AddNetwork';
+import About from './Components/About/About';
 
 function App() {
 
@@ -39,7 +40,9 @@ function App() {
   </div>
 
   let loginOutput = connectedWalletInfo === undefined ?
-  <div></div> : 
+  <div>
+      <About></About>
+  </div> : 
   <div>
     <AdvancedInformation></AdvancedInformation>
     <TheSameRoof

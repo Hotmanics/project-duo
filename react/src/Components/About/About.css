@@ -1,0 +1,16 @@
+.about {
+    background-color: #69e9cb;
+    text-align: center;
+    margin:auto;
+    width: 100%;
+    min-width: 50px;
+    max-width: 600px;
+    font-size: 24px; 
+    border-radius: 12px;
+}
+
+.about p {
+    margin-top:-20px;
+    margin-left:20px;
+    margin-right:20px;
+}
