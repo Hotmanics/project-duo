@@ -2,24 +2,6 @@ import React, { useState } from 'react';
 import "./About.css";
 
 const About = (props)=> {
-
-    const handleClick = ()=> {
-        window.ethereum.request({
-            method: "wallet_addEthereumChain",
-            params: [{
-              chainId: "0x89",
-              rpcUrls: ["https://polygon.llamarpc.com"],
-              chainName: "Polygon Mainnet",
-              nativeCurrency: {
-                name: "MATIC",
-                symbol: "MATIC",
-                decimals: 18
-              },
-              blockExplorerUrls: ["https://polygonscan.com/"]
-            }]
-          });
-    }
-
     return <div className="about">
             <div>
                 <h1>Project Duo</h1>
